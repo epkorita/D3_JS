@@ -13,7 +13,7 @@ var width = svgWidth - margin.left - margin.right;
 var height = svgHeight - margin.top - margin.bottom;
 
 // Select Scatter, append SVG area to it, and set the dimensions
-var svg = d3.select(".scatter")
+var svg = d3.select("#scatter")
   .append("svg")
   .attr("height", svgHeight)
   .attr("width", svgWidth);
